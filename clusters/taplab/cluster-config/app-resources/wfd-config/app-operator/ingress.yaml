@@ -1,0 +1,16 @@
+apiVersion: projectcontour.io/v1
+kind: HTTPProxy
+metadata:
+  name: where-for-dinner-ingress
+  namespace: default
+spec:
+  virtualhost:
+    fqdn: wfd1000.a4.fynesy.com
+    tls:
+      secretName: taptlscert
+  routes:
+  - conditions:
+    - prefix: /
+    services:
+    - name: wft1000
+      port: 80
