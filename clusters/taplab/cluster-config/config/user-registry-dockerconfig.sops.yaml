@@ -1,0 +1,28 @@
+apiVersion: ENC[AES256_GCM,data:oSo=,iv:9raNlgV8AXeZYf0tKJFMVn3qusY4bk6KcZ8HZd2KBzY=,tag:9yNiJ4s1jOCm9FS3K8+NuA==,type:str]
+kind: ENC[AES256_GCM,data:GJROIgnr,iv:Afn5zizD+dts8skh/4C4a+exNJKcBe/qS/C6FjJJWGo=,tag:NsVyQ/5sUBPs8CmpqpMOPg==,type:str]
+metadata:
+    name: ENC[AES256_GCM,data:73FyKh+fAkrY0Na5U23fkaMrfx+lBiEcwLU=,iv:OVCtfX+pcP+sDmEUSSPBrb/Jr5DRjnV81P8gHx/BM8c=,tag:QmktIUN+habYBllEzfLc/w==,type:str]
+    namespace: ENC[AES256_GCM,data:ax+UIajQVJpIBV4=,iv:l5oSIuKaSimW56DnzIE9w3qbBTPlV6JpgDDiN7f871s=,tag:G48CSfRQAg11rcLo1w8J8Q==,type:str]
+type: ENC[AES256_GCM,data:rslbe9sMmFJqH6dXKAAr42zm0GvZ9fTIKWbYbOg7,iv:CZCvBk4H7t9g+pPZ9j28gRrv3WIxT8W9bKI090OZ7tA=,tag:BYiyCg/g2sqES+VoDoIF3A==,type:str]
+data:
+    .dockerconfigjson: ENC[AES256_GCM,data:E+7FCWkA6TfaGXD3vuOuH8D/qNGFX9SNFIlVyRV0IR5bZ852XE3bqfrzQ0p/GoU95/71C1gT0P39HaaJhIPSzdpCiUPKG2m0iuXM+4dTLzvqeyMz9ewBRyIEgKgyQ4DuYFY//ZUk4UV47vvbwXjBU2sRrHnXEwN9Wmz38EAqIQSDEWA7SKX36DDsCFcFkXL1qZyiTcVw2KGM4CnnFL/fDHVz+9E=,iv:Kcri520MPs4gdTkn/AYWtson0tKDKLOVxsHBD+MZWeo=,tag:5eCAyT2sZlPsQJfLtgEhEA==,type:str]
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1u74ps32m3mcvd6zjaw8w2p3wwfucz0r2rxrsxmq8ldlyv5lapgkqle505u
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSB2b04wMUtVbTZFejJQWHFj
+            Mk1wbWlnTkVqTFhYRWxWN3JjVzBDMEdrQVJNCklWdHNjOHRBaWx6cjRiUzhLdG9h
+            NEpVRWhRTk95ZEY4c3ZoNjQ3djFSejgKLS0tIEkreUsxc0kwZmdreDFhc3ZpVTdN
+            bUQvRGsyQ3ZPWVc0a25KZXR2S25Ob1UKF6XvPoX1yXyi5aQbf8QzN/Ji0rwo8dHB
+            xtryNHjTvnz3+Vtx+FDisK0phtjn/lFI0AWvb3RI2wnrLscamUIQHw==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2023-11-13T20:21:23Z"
+    mac: ENC[AES256_GCM,data:wRegKKg6GreLwi/KQpWVOw/jRFLf8PkQTUpv/KoWT0hjI9+MNbNaIv0Hh+f/kQUJ/OseiBhny9N7fSsfiUe7U0ok9R/XDJ1AYmc4tbkJpdMpe9sdDXEoLTvZz2CvPUa+66QKC7DhVoS/M6ddpitU1LgcuQdcF54F/DaljSzXylw=,iv:7xMBX2eCz5ZvU2OHs1EgdljAqu+ciMaiXUWoMS15Was=,tag:P26Eec60Lt4HrgErg5O1uA==,type:str]
+    pgp: []
+    unencrypted_suffix: _unencrypted
+    version: 3.7.3
