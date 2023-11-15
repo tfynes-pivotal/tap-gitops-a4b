@@ -5,7 +5,7 @@ metadata:
     classclaims.services.apps.tanzu.vmware.com/xrd-name: xredisclusters.bitnami.caching.tanzu.vmware.com
   finalizers:
   - classclaims.services.apps.tanzu.vmware.com/provision-finalizer
-  name: redis1
+  name: redis2
   namespace: chris
 spec:
   classRef:
