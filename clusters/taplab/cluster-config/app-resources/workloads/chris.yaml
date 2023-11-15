@@ -15,8 +15,8 @@ spec:
     - name: annotations
       value:
         autoscaling.knative.dev/minScale: "1"
-    - name: gitops_ssh_secret
-      value: private-source-example
+   # - name: gitops_ssh_secret
+   #   value: private-source-example
   source:
     git:
       # update when code is pushed to a new location
